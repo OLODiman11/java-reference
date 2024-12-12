@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:task="http://www.springframework.org/schema/task"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+           http://www.springframework.org/schema/beans/spring-beans.xsd
+           http://www.springframework.org/schema/task
+           http://www.springframework.org/schema/task/spring-task-3.0.xsd
+           http://www.springframework.org/schema/context
+           http://www.springframework.org/schema/context/spring-context.xsd">
+    <context:annotation-config/>
+
+    <bean id="myBean"
+          class="beans.MyBean"
+          name="beanAlias"
+          scope="singleton"
+          autowire="byType" >
+
+        <!-- Параметр по индексу (с нуля) -->
+        <constructor-arg type="int" value="7500000"/>
+        <constructor-arg type="int" value="2300000"/>
+        <!-- Параметр по типу -->
+        <constructor-arg type="java.lang.String" value="test1"/>
+        <constructor-arg type="java.lang.String" value="test2"/>
+
+        <!-- Внедрение в записимости в поле -->
+        <!-- <property name="anotherBean" ref="anotherBean"/> -->
+        <property name="a" value="123"/>
+
+    </bean>
+
+    <bean id="anotherBean" class="beans.AnotherBean"/>
+</beans>
