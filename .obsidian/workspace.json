@@ -1,0 +1,192 @@
+{
+  "main": {
+    "id": "131dddfeccc33b56",
+    "type": "split",
+    "children": [
+      {
+        "id": "b97543aeab749695",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3e883309155903a0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Архитектура/Вопросы.md",
+                "mode": "source",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Вопросы"
+            }
+          }
+        ]
+      },
+      {
+        "id": "3d483808f7c3d21f",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "b2d241f90f532079",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Архитектура/Вопросы.md",
+                "mode": "preview",
+                "source": true
+              },
+              "icon": "lucide-file",
+              "title": "Вопросы"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "2a7602e98fd2c959",
+    "type": "split",
+    "children": [
+      {
+        "id": "923cc685ed5122b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "541e389114e5bd94",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-folder-closed",
+              "title": "Файловый менеджер"
+            }
+          },
+          {
+            "id": "74996292888991db",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              },
+              "icon": "lucide-search",
+              "title": "Поиск"
+            }
+          },
+          {
+            "id": "3539361bb26b1c7c",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {},
+              "icon": "lucide-bookmark",
+              "title": "Закладки"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "right": {
+    "id": "cbe3f7d4a75be6d5",
+    "type": "split",
+    "children": [
+      {
+        "id": "75da7b76c493ffb2",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c19ae6c4e1005896",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Архитектура/Вопросы.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-coming-in",
+              "title": "Обратные ссылки для Вопросы"
+            }
+          },
+          {
+            "id": "33436d830cd5d5fd",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Архитектура/Вопросы.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              },
+              "icon": "links-going-out",
+              "title": "Исходящие ссылки из Вопросы"
+            }
+          },
+          {
+            "id": "b47463becaf2aea9",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              },
+              "icon": "lucide-tags",
+              "title": "Теги"
+            }
+          },
+          {
+            "id": "f4e48b5b19241aab",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Архитектура/Вопросы.md"
+              },
+              "icon": "lucide-list",
+              "title": "Структура Вопросы"
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Меню быстрого перехода": false,
+      "graph:Граф": false,
+      "canvas:Создать новый холст": false,
+      "daily-notes:Сегодняшняя заметка": false,
+      "templates:Вставить шаблон": false,
+      "command-palette:Открыть палитру команд": false
+    }
+  },
+  "active": "3e883309155903a0",
+  "lastOpenFiles": [
+    "Без названия.canvas",
+    "Архитектура/Вопросы.md",
+    "Hibernate/Hibernate конспект.md"
+  ]
+}
